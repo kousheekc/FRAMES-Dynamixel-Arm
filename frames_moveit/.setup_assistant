@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: frames_description
+    relative_path: urdf/frames.urdf
+  srdf:
+    relative_path: config/Frames.srdf
+  package_settings:
+    author_name: Kousheek Chakraborty
+    author_email: kousheekc@gmail.com
+    generated_timestamp: 1696505801
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

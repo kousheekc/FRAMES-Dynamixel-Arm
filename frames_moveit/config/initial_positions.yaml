@@ -1,0 +1,9 @@
+# Default initial positions for Frames's ros2_control fake system
+
+initial_positions:
+  frames_joint1: 0
+  frames_joint2: 0
+  frames_joint3: 0
+  frames_joint4: 0
+  frames_joint5: 0
+  frames_joint6: 0
