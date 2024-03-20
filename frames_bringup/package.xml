@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>frames_bringup</name>
+  <version>0.0.0</version>
+  <description>Frames bringup package</description>
+
+  <author email="kousheekc@gmail.com">Kousheek Chakraborty</author>
+  <maintainer email="kousheekc@gmail.com">Kousheek Chakraborty</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="/home/kousheek/ros_workspaces/frames_ws/install/frames_description/share"/>
+  </export>
+</package>
